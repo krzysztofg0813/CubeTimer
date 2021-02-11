@@ -1,7 +1,7 @@
-import {startSolve, stopSolve, displayStats} from './lib';
-import {mainDisplay} from './elements';
-import {reCount} from './utils';
-import {timesData} from './data';
+import {startSolve, stopSolve, displayStats} from './lib.js';
+import {mainDisplay} from './elements.js';
+import {reCount} from './utils.js';
+import {timesData} from './data.js';
 
 let isStart = false;
 let isPossiblyNextSolve = true;

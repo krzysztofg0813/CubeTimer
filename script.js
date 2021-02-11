@@ -1,6 +1,6 @@
-import {handleClickStart, handleClickStop} from './handlers';
-import {timeScreen} from './elements';
-import {init} from './lib';
+import {handleClickStart, handleClickStop} from './handlers.js';
+import {timeScreen} from './elements.js';
+import {init} from './lib.js';
 
 init();
 timeScreen.addEventListener('mouseup', handleClickStart);

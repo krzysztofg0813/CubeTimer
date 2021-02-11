@@ -1,4 +1,4 @@
-import { timeList } from "./elements";
+import { timeList } from "./elements.js";
 
 export function getTimeString(time){
     const minutes = Math.floor(time / 60000);
