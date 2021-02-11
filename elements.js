@@ -1,0 +1,10 @@
+export const mainDisplay = document.querySelector('.display');
+export const timeScreen = document.querySelector('.time');
+export const scrambleScreen = document.querySelector('.scramble');
+export const timeList = document.querySelector('.timeList ul');
+export const averageS = document.querySelector('.avg span');
+export const average5 = document.querySelector('.avg5 span');
+export const average10 = document.querySelector('.avg10 span');
+export const bestTimeS = document.querySelector('.best span');
+export const worstTimeS = document.querySelector('.worst span');
+export const graph = document.querySelector('.figure canvas');
