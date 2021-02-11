@@ -1,7 +1,7 @@
-import {timeScreen, timeList, averageS, average5, average10, bestTimeS, worstTimeS, scrambleScreen, graph, mainDisplay} from './elements.js';
-import {getTimeString, generateScramble, getAllTime, getMaxMin} from './utils.js';
-import {handleDeleteTime} from './handlers.js';
-import { timesData, currentId, incrementId } from './data.js';
+import {timeScreen, timeList, averageS, average5, average10, bestTimeS, worstTimeS, scrambleScreen, graph, mainDisplay} from 'elements.js';
+import {getTimeString, generateScramble, getAllTime, getMaxMin} from 'utils.js';
+import {handleDeleteTime} from 'handlers.js';
+import { timesData, currentId, incrementId } from 'data.js';
 
 let currentTime = 0;
 let currentScramble;
